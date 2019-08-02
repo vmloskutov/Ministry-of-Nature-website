@@ -7049,5 +7049,11 @@ header {
 nav a {
   color: #dde1e6; }
 
+.navbar-dark .navbar-brand {
+  color: #dde1e6; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #dde1e6; }
+
 .navbar {
   padding: 0; }

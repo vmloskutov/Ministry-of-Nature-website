@@ -37,6 +37,14 @@ nav {
   }
 }
 
+.navbar-dark .navbar-brand {
+  color: $navText;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $navText;
+}
+
 .navbar {
   padding:0;
 }
