@@ -16,7 +16,10 @@ module.exports = {
           use: ['css-loader', 'sass-loader']
         })
       },
-      
+      {
+     test: require.resolve('jquery'),
+     loader: 'expose-loader?jQuery!expose-loader?$'
+      }
     ]
   },
   plugins: [
