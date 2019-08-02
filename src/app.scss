@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./scss/variables.scss";
+@import './scss/base.scss';
+@import './scss/typography.scss';
+
+header {
+  background-color: #3B4256;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  justify-content: flex-start;
+}
+
+#navbarSupportedContent {
+  justify-content: flex-end;
+}
+
+.svg-nav {
+  margin-right: 8px;
+  height: 24px;
+}
+
+.svg-brand {
+  margin-right: 12px;
+}
+
+.nav-item {
+  margin-right: 24px;
+}
+
+nav {
+ a{
+  color: $navText;
+  }
+}
+
+.navbar {
+  padding:0;
+}
