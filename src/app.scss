@@ -144,6 +144,7 @@ hr {
 h3 {
   color: $ink;
   font-size: 48px;
+  line-height: 56px;
   margin-bottom: 24px;
 }
 
@@ -151,10 +152,34 @@ h3 {
  border-right:1px solid $navText;
 }
 
-ul {
-  a {
-      color: $ink;
+.row-1 {
+  ul {
+    a {
+        color: $ink;
+    }
+    line-height: 2;
+    list-style: none;
   }
-  line-height: 2;
-  list-style: none;
+}
+
+.openMinistryText {
+  font-size: 24px;
+  line-height: 32px;
+  color: $ink;
+}
+
+.row-2 {
+  ul {
+    list-style-type: disc;
+    padding-inline-start: 20px;
+    margin-top: 12px;
+    line-height: 45px;
+    font-size: 18px;
+  }
+}
+
+.targetText {
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 26px;
 }
