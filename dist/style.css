@@ -7046,8 +7046,51 @@ header {
 .nav-item {
   margin-right: 24px; }
 
-nav a {
+.navbar-dark .navbar-brand {
+  color: #dde1e6; }
+
+.navbar-dark .navbar-nav .nav-link {
   color: #dde1e6; }
 
 .navbar {
   padding: 0; }
+
+.minIconBlock {
+  color: #3b4256; }
+
+h5 {
+  padding: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 0; }
+
+h6 {
+  padding: 0;
+  margin-top: 2px;
+  font-size: 14px;
+  line-height: 1.43; }
+
+.minIcon {
+  margin-right: 16px; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0; }
+
+.nav-link {
+  display: block;
+  padding: 0; }
+
+.More {
+  width: 22px;
+  height: 24px;
+  object-fit: contain; }
+
+.second-header .nav-link {
+  color: #3b4256;
+  font-size: 16px;
+  font-weight: 500; }
+
+.bg-light {
+  background-color: #ffffff !important; }
