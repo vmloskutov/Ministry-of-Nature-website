@@ -3,6 +3,9 @@
 @import './scss/base.scss';
 @import './scss/typography.scss';
 
+a {
+  text-decoration: none;
+}
 
 header {
   background-color: #3B4256;
@@ -108,7 +111,7 @@ hr {
 .breadcrumb {
   background-color: $white;
   padding: 0;
-  margin-bottom: 0;
+  margin-bottom: 24px;
   background-color: $white;
   text-decoration: none;
   a {
@@ -124,6 +127,11 @@ hr {
       margin-bottom: 10px;
       margin-top: 5px;
     }
+
+    ul {
+      margin-top: 24px;
+      padding-inline-start: 0;
+    }
 }
 
 @media (min-width: 993px) {
@@ -131,4 +139,22 @@ hr {
     padding-bottom: 10px;
     border-bottom: 2px solid $main;
   }
+}
+
+h3 {
+  color: $ink;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.v-divider{
+ border-right:1px solid $navText;
+}
+
+ul {
+  a {
+      color: $ink;
+  }
+  line-height: 2;
+  list-style: none;
 }
