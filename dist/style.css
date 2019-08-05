@@ -7044,7 +7044,8 @@ header {
   margin-right: 12px; }
 
 .nav-item {
-  margin-right: 24px; }
+  margin-right: 24px;
+  line-height: 1.7; }
 
 .navbar-dark .navbar-brand {
   color: #dde1e6; }
