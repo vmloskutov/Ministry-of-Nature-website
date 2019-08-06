@@ -7160,3 +7160,60 @@ h3 {
   margin-top: 12px;
   font-size: 18px;
   line-height: 26px; }
+
+.gosuslugi {
+  margin-top: 80px;
+  background-color: #f4f7fb; }
+
+.section-label {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 32px;
+  line-height: 1.25;
+  color: #3b4256; }
+
+.icon-right {
+  margin-left: 28px; }
+
+.gos-card {
+  background-color: #ffffff;
+  padding: 30px 32px 32px 32px;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 32px;
+  border-radius: 4px; }
+  .gos-card footer {
+    color: #848e99;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px; }
+  .gos-card a {
+    text-decoration: none;
+    color: #3b4256; }
+
+.stack {
+  padding-bottom: 80px; }
+
+@media (max-width: 992px) {
+  .gosuslugi {
+    margin-top: 40px; }
+  .stack {
+    padding-bottom: 40px; }
+  .uslugi-label {
+    padding-top: 40px;
+    padding-bottom: 40px; } }
+
+.gos-card:last-child {
+  padding-right: 0; }
+
+.gosuslugi-svg {
+  margin-right: 32px; }
+
+.out-link {
+  position: absolute;
+  top: 0;
+  right: 15px; }
+
+.popular-data {
+  padding-bottom: 80px;
+  background-color: #ffffff; }
