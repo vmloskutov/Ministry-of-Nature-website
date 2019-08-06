@@ -331,11 +331,51 @@ h3 {
 }
 
 .popular-buttons {
-  margin-top: 15px;
+  margin-top: 20px;
   .left{
     margin-right: 16px;
   }
   .right {
     transform: rotate(180deg);
+  }
+}
+
+.schedule {
+  color:$ink;
+  hr {
+    margin-bottom: 0;
+  }
+  .section-label {
+    padding-bottom: 50px;
+  }
+  .avatar {
+  width: 76px;
+  height: 76px;
+  margin-right: 32px;
+  }
+  .name {
+      font-size: 18px;
+       line-height: 1.44;
+       font-weight: 500;
+       margin-bottom: 8px;
+  }
+  .position {
+        height: 24px;
+        line-height: 1.5;
+        margin-bottom: 24px;
+  }
+  .days {
+      font-size: 14px;
+      line-height: 1.43;
+      color: $darkGray;
+      margin-bottom: 18px;
+  }
+  button {
+      line-height: 1.5;
+      height: 24px;
+      width: 187px;
+      height: 48px;
+      border-radius: 4px;
+      background-color: $yourHighness;
   }
 }

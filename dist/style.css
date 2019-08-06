@@ -7278,8 +7278,40 @@ h3 {
       margin-left: 12px; }
 
 .popular-buttons {
-  margin-top: 15px; }
+  margin-top: 20px; }
   .popular-buttons .left {
     margin-right: 16px; }
   .popular-buttons .right {
     transform: rotate(180deg); }
+
+.schedule {
+  color: #3b4256; }
+  .schedule hr {
+    margin-bottom: 0; }
+  .schedule .section-label {
+    padding-bottom: 50px; }
+  .schedule .avatar {
+    width: 76px;
+    height: 76px;
+    margin-right: 32px; }
+  .schedule .name {
+    font-size: 18px;
+    line-height: 1.44;
+    font-weight: 500;
+    margin-bottom: 8px; }
+  .schedule .position {
+    height: 24px;
+    line-height: 1.5;
+    margin-bottom: 24px; }
+  .schedule .days {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #848e99;
+    margin-bottom: 18px; }
+  .schedule button {
+    line-height: 1.5;
+    height: 24px;
+    width: 187px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #f4f7fb; }
