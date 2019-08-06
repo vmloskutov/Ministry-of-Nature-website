@@ -7033,7 +7033,8 @@ header {
   padding-bottom: 16px; }
 
 .navbar-brand {
-  font-size: 20px;
+  font-size: 14px;
+  line-height: 1.43;
   justify-content: flex-start; }
 
 #navbarNavDropdown {
@@ -7048,7 +7049,8 @@ header {
 
 .nav-item {
   margin-right: 24px;
-  line-height: 1.7; }
+  line-height: 1.43;
+  font-size: 14px; }
 
 .navbar-dark .navbar-brand {
   color: #dde1e6; }
@@ -7236,7 +7238,8 @@ h3 {
     line-height: 1.44;
     border-radius: 4px;
     color: #3b4256;
-    padding: 32px 64px 33px 72px; }
+    padding: 32px 64px 33px 72px;
+    margin-bottom: 24px; }
     .popular-data .popular-block .popular-block-label {
       margin-bottom: 12px;
       font-size: 18px;
@@ -7263,3 +7266,20 @@ h3 {
     .popular-data .popular-block-data .data-digits {
       font-size: 32px;
       line-height: 1.25; }
+  .popular-data .download {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #848e99;
+    display: inline;
+    position: absolute;
+    bottom: 32px;
+    right: 32px; }
+    .popular-data .download .download-image {
+      margin-left: 12px; }
+
+.popular-buttons {
+  margin-top: 15px; }
+  .popular-buttons .left {
+    margin-right: 16px; }
+  .popular-buttons .right {
+    transform: rotate(180deg); }
