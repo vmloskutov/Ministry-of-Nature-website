@@ -83,7 +83,7 @@ h6 {
   padding: 0;
 }
 
-.More {
+.more {
   width: 22px;
   height: 24px;
   object-fit: contain;
@@ -186,6 +186,7 @@ h3 {
 }
 
 .gosuslugi {
+  height: 100%;
   margin-top: 80px;
   background-color: $yourHighness;
 }
@@ -203,11 +204,11 @@ h3 {
 }
 
 .gos-card {
+  height: 75%;
   background-color: $white;
   padding: 30px 32px 32px 32px;
   font-size: 18px;
   line-height: 26px;
-
   margin-bottom: 32px;
   border-radius: 4px;
   footer {
@@ -254,6 +255,9 @@ h3 {
 }
 
 .popular-data {
+  @media (max-width: 992px) {
+    padding-bottom: 20px;
+  }
   padding-bottom: 80px;
   background-color: $white;
   .rating{
@@ -342,6 +346,7 @@ h3 {
 
 .schedule {
   color:$ink;
+  padding-bottom: 80px;
   hr {
     margin-bottom: 0;
   }
@@ -352,6 +357,9 @@ h3 {
   width: 76px;
   height: 76px;
   margin-right: 32px;
+  }
+  .person {
+    margin-bottom: 24px;
   }
   .name {
       font-size: 18px;
@@ -378,4 +386,91 @@ h3 {
       border-radius: 4px;
       background-color: $yourHighness;
   }
+}
+
+.footer {
+  color: $white;
+  background-color: $ink;
+  padding-top: 80px;
+  padding-bottom: 49px;
+  h5 {
+    font-size: 24px;
+    margin-top: 24px;
+    line-height: 1.33;
+  }
+  h6 {
+    color: $silver;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  .footer-btn {
+    margin-top: 24px;
+    color: $yourHighness;
+    background-color: $ink;
+    width: 191px;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px $darkGray;
+  }
+  .footer-label {
+    font-size: 20px;
+    line-height: 1.4;
+    color: $yourHighness;
+    margin-bottom: 20px;
+  }
+  .footer-ul {
+    font-size: 16px;
+    line-height: 2;
+    padding:0;
+    list-style: none;
+    color: $darkGray;
+  }
+  .row {
+    margin-bottom: 48px;
+  }
+  hr {
+    margin-bottom: 48px;
+    height: 0px;
+    background-color: $darkGray;
+  }
+  .license-social{
+
+    .license {
+      color: $navText;
+      font-size: 16px;
+      .img-license {
+        margin-right: 16px;
+      }
+    }
+    .social {
+      margin-left: 0;
+      padding: 0;
+      .social-icon {
+        margin-left: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .section-label {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+   .license {
+     margin-bottom: 20px;
+   }
+
+   .footer {
+     padding-top: 40px;
+     padding-bottom: 20px;
+     .col-lg-4 {
+       margin-bottom: 20px;
+     }
+     .row {
+       margin-bottom: 20px;
+     }
+   }
 }
