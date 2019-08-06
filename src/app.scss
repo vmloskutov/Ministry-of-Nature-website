@@ -115,10 +115,10 @@ hr {
   background-color: $white;
   text-decoration: none;
   a {
-    color: #848e99;
+    color: $darkGray;
   }
   .active {
-    color: #848e99;
+    color: $darkGray;
   }
 }
 
@@ -210,7 +210,7 @@ h3 {
   margin-bottom: 32px;
   border-radius: 4px;
   footer {
-    color:#848e99;
+    color:$darkGray;
     font-size: 14px;
     line-height: 20px;
     margin-top: 16px;
@@ -255,4 +255,62 @@ h3 {
 .popular-data {
   padding-bottom: 80px;
   background-color: $white;
+  .rating{
+    position: absolute;
+    left: 24px;
+    top: 32px;
+    .rating-digits {
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .down {
+      transform: rotate(-90deg);
+      fill: $darkGray;
+    }
+    .up {
+      transform: rotate(90deg);
+    }
+  }
+  .popular-block {
+    background-color: $yourHighness;
+    font-size: 18px;
+    line-height: 1.44;
+    border-radius: 4px;
+    color: $ink;
+    padding: 32px 64px 33px 72px;
+    .popular-block-label {
+      margin-bottom: 12px;
+      font-size: 18px;
+      line-height: 1.44;
+    }
+    .popular-block-text {
+      font-size: 14px;
+      line-height: 1.43;
+      color: $darkGray;
+      margin-bottom: 39px;
+    }
+    footer {
+      font-size: 14px;
+      line-height: 1.43;
+      color: $darkGray;
+    }
+  }
+
+  .popular-block-data {
+    color: $ink;
+    background-color: $white;
+    font-size: 14px;
+    line-height: 1.43;
+    border: solid 1px $silver;
+    padding: 8px 32px 32px 32px;
+    .block-data-label {
+      margin-bottom:8px;
+      margin-top:24px;
+    }
+    .data-digits {
+      font-size: 32px;
+      line-height: 1.25;
+    }
+  }
 }

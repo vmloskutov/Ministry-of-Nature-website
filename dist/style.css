@@ -7217,3 +7217,49 @@ h3 {
 .popular-data {
   padding-bottom: 80px;
   background-color: #ffffff; }
+  .popular-data .rating {
+    position: absolute;
+    left: 24px;
+    top: 32px; }
+    .popular-data .rating .rating-digits {
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.5; }
+    .popular-data .rating .down {
+      transform: rotate(-90deg);
+      fill: #848e99; }
+    .popular-data .rating .up {
+      transform: rotate(90deg); }
+  .popular-data .popular-block {
+    background-color: #f4f7fb;
+    font-size: 18px;
+    line-height: 1.44;
+    border-radius: 4px;
+    color: #3b4256;
+    padding: 32px 64px 33px 72px; }
+    .popular-data .popular-block .popular-block-label {
+      margin-bottom: 12px;
+      font-size: 18px;
+      line-height: 1.44; }
+    .popular-data .popular-block .popular-block-text {
+      font-size: 14px;
+      line-height: 1.43;
+      color: #848e99;
+      margin-bottom: 39px; }
+    .popular-data .popular-block footer {
+      font-size: 14px;
+      line-height: 1.43;
+      color: #848e99; }
+  .popular-data .popular-block-data {
+    color: #3b4256;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 1.43;
+    border: solid 1px #dde1e6;
+    padding: 8px 32px 32px 32px; }
+    .popular-data .popular-block-data .block-data-label {
+      margin-bottom: 8px;
+      margin-top: 24px; }
+    .popular-data .popular-block-data .data-digits {
+      font-size: 32px;
+      line-height: 1.25; }
