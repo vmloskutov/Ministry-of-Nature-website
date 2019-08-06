@@ -14,7 +14,8 @@ header {
 }
 
 .navbar-brand {
-  font-size: 20px;
+  font-size: 14px;
+  line-height: 1.43;
   justify-content: flex-start;
 }
 
@@ -33,7 +34,8 @@ header {
 
 .nav-item {
   margin-right: 24px;
-  line-height: 1.7;
+  line-height: 1.43;
+  font-size: 14px;
 }
 
 .navbar-dark .navbar-brand {
@@ -71,18 +73,17 @@ h6 {
   margin-right: 16px;
 }
 
-
 .navbar-expand-lg .navbar-nav .nav-link {
  padding-right: 0;
  padding-left: 0;
 }
 
 .nav-link {
-display: block;
-padding: 0;
+  display: block;
+  padding: 0;
 }
 
-.More {
+.more {
   width: 22px;
   height: 24px;
   object-fit: contain;
@@ -115,10 +116,10 @@ hr {
   background-color: $white;
   text-decoration: none;
   a {
-    color: #848e99;
+    color: $darkGray;
   }
   .active {
-    color: #848e99;
+    color: $darkGray;
   }
 }
 
@@ -144,6 +145,7 @@ hr {
 h3 {
   color: $ink;
   font-size: 48px;
+  line-height: 56px;
   margin-bottom: 24px;
 }
 
@@ -151,10 +153,324 @@ h3 {
  border-right:1px solid $navText;
 }
 
-ul {
-  a {
-      color: $ink;
+.row-1 {
+  ul {
+    a {
+        color: $ink;
+    }
+    line-height: 2;
+    list-style: none;
   }
-  line-height: 2;
-  list-style: none;
+}
+
+.openMinistryText {
+  font-size: 24px;
+  line-height: 32px;
+  color: $ink;
+}
+
+.row-2 {
+  ul {
+    list-style-type: disc;
+    padding-inline-start: 20px;
+    margin-top: 12px;
+    line-height: 45px;
+    font-size: 18px;
+  }
+}
+
+.targetText {
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.gosuslugi {
+  height: 100%;
+  margin-top: 80px;
+  background-color: $yourHighness;
+}
+
+.section-label {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 32px;
+  line-height: 1.25;
+  color: $ink;
+}
+
+.icon-right {
+  margin-left: 28px;
+}
+
+.gos-card {
+  height: 75%;
+  background-color: $white;
+  padding: 30px 32px 32px 32px;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  footer {
+    color:$darkGray;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+  }
+  a {
+    text-decoration: none;
+    color: $ink;
+  }
+}
+
+.stack {
+  padding-bottom: 80px;
+}
+
+@media (max-width: 992px) {
+  .gosuslugi {
+    margin-top: 40px;
+  }
+  .stack {
+    padding-bottom: 40px;
+  }
+  .uslugi-label {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.gos-card:last-child {
+  padding-right: 0;
+}
+
+.gosuslugi-svg {
+  margin-right: 32px;
+}
+
+.out-link {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+.popular-data {
+  @media (max-width: 992px) {
+    padding-bottom: 20px;
+  }
+  padding-bottom: 80px;
+  background-color: $white;
+  .rating{
+    position: absolute;
+    left: 24px;
+    top: 32px;
+    .rating-digits {
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .down {
+      transform: rotate(-90deg);
+      fill: $darkGray;
+    }
+    .up {
+      transform: rotate(90deg);
+    }
+  }
+  .popular-block {
+    background-color: $yourHighness;
+    font-size: 18px;
+    line-height: 1.44;
+    border-radius: 4px;
+    color: $ink;
+    padding: 32px 64px 33px 72px;
+    margin-bottom: 24px;
+    .popular-block-label {
+      margin-bottom: 12px;
+      font-size: 18px;
+      line-height: 1.44;
+    }
+    .popular-block-text {
+      font-size: 14px;
+      line-height: 1.43;
+      color: $darkGray;
+      margin-bottom: 39px;
+    }
+    footer {
+      font-size: 14px;
+      line-height: 1.43;
+      color: $darkGray;
+    }
+  }
+
+  .popular-block-data {
+    color: $ink;
+    background-color: $white;
+    font-size: 14px;
+    line-height: 1.43;
+    border: solid 1px $silver;
+    padding: 8px 32px 32px 32px;
+    .block-data-label {
+      margin-bottom:8px;
+      margin-top:24px;
+    }
+    .data-digits {
+      font-size: 32px;
+      line-height: 1.25;
+    }
+  }
+
+  .download {
+    font-size: 14px;
+    line-height: 1.43;
+    color: $darkGray;
+    display: inline;
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    .download-image {
+      margin-left: 12px;
+    }
+  }
+}
+
+.popular-buttons {
+  margin-top: 20px;
+  .left{
+    margin-right: 16px;
+  }
+  .right {
+    transform: rotate(180deg);
+  }
+}
+
+.schedule {
+  color:$ink;
+  padding-bottom: 80px;
+  hr {
+    margin-bottom: 0;
+  }
+  .section-label {
+    padding-bottom: 50px;
+  }
+  .avatar {
+  width: 76px;
+  height: 76px;
+  margin-right: 32px;
+  }
+  .person {
+    margin-bottom: 24px;
+  }
+  .name {
+      font-size: 18px;
+       line-height: 1.44;
+       font-weight: 500;
+       margin-bottom: 8px;
+  }
+  .position {
+        height: 24px;
+        line-height: 1.5;
+        margin-bottom: 24px;
+  }
+  .days {
+      font-size: 14px;
+      line-height: 1.43;
+      color: $darkGray;
+      margin-bottom: 18px;
+  }
+  button {
+      line-height: 1.5;
+      height: 24px;
+      width: 187px;
+      height: 48px;
+      border-radius: 4px;
+      background-color: $yourHighness;
+  }
+}
+
+.footer {
+  color: $white;
+  background-color: $ink;
+  padding-top: 80px;
+  padding-bottom: 49px;
+  h5 {
+    font-size: 24px;
+    margin-top: 24px;
+    line-height: 1.33;
+  }
+  h6 {
+    color: $silver;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  .footer-btn {
+    margin-top: 24px;
+    color: $yourHighness;
+    background-color: $ink;
+    width: 191px;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px $darkGray;
+  }
+  .footer-label {
+    font-size: 20px;
+    line-height: 1.4;
+    color: $yourHighness;
+    margin-bottom: 20px;
+  }
+  .footer-ul {
+    font-size: 16px;
+    line-height: 2;
+    padding:0;
+    list-style: none;
+    color: $darkGray;
+  }
+  .row {
+    margin-bottom: 48px;
+  }
+  hr {
+    margin-bottom: 48px;
+    height: 0px;
+    background-color: $darkGray;
+  }
+  .license-social{
+
+    .license {
+      color: $navText;
+      font-size: 16px;
+      .img-license {
+        margin-right: 16px;
+      }
+    }
+    .social {
+      margin-left: 0;
+      padding: 0;
+      .social-icon {
+        margin-left: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .section-label {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+   .license {
+     margin-bottom: 20px;
+   }
+
+   .footer {
+     padding-top: 40px;
+     padding-bottom: 20px;
+     .col-lg-4 {
+       margin-bottom: 20px;
+     }
+     .row {
+       margin-bottom: 20px;
+     }
+   }
 }

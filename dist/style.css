@@ -7033,7 +7033,8 @@ header {
   padding-bottom: 16px; }
 
 .navbar-brand {
-  font-size: 20px;
+  font-size: 14px;
+  line-height: 1.43;
   justify-content: flex-start; }
 
 #navbarNavDropdown {
@@ -7048,7 +7049,8 @@ header {
 
 .nav-item {
   margin-right: 24px;
-  line-height: 1.7; }
+  line-height: 1.43;
+  font-size: 14px; }
 
 .navbar-dark .navbar-brand {
   color: #dde1e6; }
@@ -7086,7 +7088,7 @@ h6 {
   display: block;
   padding: 0; }
 
-.More {
+.more {
   width: 22px;
   height: 24px;
   object-fit: contain; }
@@ -7132,13 +7134,256 @@ hr {
 h3 {
   color: #3b4256;
   font-size: 48px;
+  line-height: 56px;
   margin-bottom: 24px; }
 
 .v-divider {
   border-right: 1px solid #dde1e6; }
 
-ul {
+.row-1 ul {
   line-height: 2;
   list-style: none; }
-  ul a {
+  .row-1 ul a {
     color: #3b4256; }
+
+.openMinistryText {
+  font-size: 24px;
+  line-height: 32px;
+  color: #3b4256; }
+
+.row-2 ul {
+  list-style-type: disc;
+  padding-inline-start: 20px;
+  margin-top: 12px;
+  line-height: 45px;
+  font-size: 18px; }
+
+.targetText {
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 26px; }
+
+.gosuslugi {
+  height: 100%;
+  margin-top: 80px;
+  background-color: #f4f7fb; }
+
+.section-label {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 32px;
+  line-height: 1.25;
+  color: #3b4256; }
+
+.icon-right {
+  margin-left: 28px; }
+
+.gos-card {
+  height: 75%;
+  background-color: #ffffff;
+  padding: 30px 32px 32px 32px;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 32px;
+  border-radius: 4px; }
+  .gos-card footer {
+    color: #848e99;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px; }
+  .gos-card a {
+    text-decoration: none;
+    color: #3b4256; }
+
+.stack {
+  padding-bottom: 80px; }
+
+@media (max-width: 992px) {
+  .gosuslugi {
+    margin-top: 40px; }
+  .stack {
+    padding-bottom: 40px; }
+  .uslugi-label {
+    padding-top: 40px;
+    padding-bottom: 40px; } }
+
+.gos-card:last-child {
+  padding-right: 0; }
+
+.gosuslugi-svg {
+  margin-right: 32px; }
+
+.out-link {
+  position: absolute;
+  top: 0;
+  right: 15px; }
+
+.popular-data {
+  padding-bottom: 80px;
+  background-color: #ffffff; }
+  @media (max-width: 992px) {
+    .popular-data {
+      padding-bottom: 20px; } }
+  .popular-data .rating {
+    position: absolute;
+    left: 24px;
+    top: 32px; }
+    .popular-data .rating .rating-digits {
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.5; }
+    .popular-data .rating .down {
+      transform: rotate(-90deg);
+      fill: #848e99; }
+    .popular-data .rating .up {
+      transform: rotate(90deg); }
+  .popular-data .popular-block {
+    background-color: #f4f7fb;
+    font-size: 18px;
+    line-height: 1.44;
+    border-radius: 4px;
+    color: #3b4256;
+    padding: 32px 64px 33px 72px;
+    margin-bottom: 24px; }
+    .popular-data .popular-block .popular-block-label {
+      margin-bottom: 12px;
+      font-size: 18px;
+      line-height: 1.44; }
+    .popular-data .popular-block .popular-block-text {
+      font-size: 14px;
+      line-height: 1.43;
+      color: #848e99;
+      margin-bottom: 39px; }
+    .popular-data .popular-block footer {
+      font-size: 14px;
+      line-height: 1.43;
+      color: #848e99; }
+  .popular-data .popular-block-data {
+    color: #3b4256;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 1.43;
+    border: solid 1px #dde1e6;
+    padding: 8px 32px 32px 32px; }
+    .popular-data .popular-block-data .block-data-label {
+      margin-bottom: 8px;
+      margin-top: 24px; }
+    .popular-data .popular-block-data .data-digits {
+      font-size: 32px;
+      line-height: 1.25; }
+  .popular-data .download {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #848e99;
+    display: inline;
+    position: absolute;
+    bottom: 32px;
+    right: 32px; }
+    .popular-data .download .download-image {
+      margin-left: 12px; }
+
+.popular-buttons {
+  margin-top: 20px; }
+  .popular-buttons .left {
+    margin-right: 16px; }
+  .popular-buttons .right {
+    transform: rotate(180deg); }
+
+.schedule {
+  color: #3b4256;
+  padding-bottom: 80px; }
+  .schedule hr {
+    margin-bottom: 0; }
+  .schedule .section-label {
+    padding-bottom: 50px; }
+  .schedule .avatar {
+    width: 76px;
+    height: 76px;
+    margin-right: 32px; }
+  .schedule .person {
+    margin-bottom: 24px; }
+  .schedule .name {
+    font-size: 18px;
+    line-height: 1.44;
+    font-weight: 500;
+    margin-bottom: 8px; }
+  .schedule .position {
+    height: 24px;
+    line-height: 1.5;
+    margin-bottom: 24px; }
+  .schedule .days {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #848e99;
+    margin-bottom: 18px; }
+  .schedule button {
+    line-height: 1.5;
+    height: 24px;
+    width: 187px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #f4f7fb; }
+
+.footer {
+  color: #ffffff;
+  background-color: #3b4256;
+  padding-top: 80px;
+  padding-bottom: 49px; }
+  .footer h5 {
+    font-size: 24px;
+    margin-top: 24px;
+    line-height: 1.33; }
+  .footer h6 {
+    color: #dde1e6;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5; }
+  .footer .footer-btn {
+    margin-top: 24px;
+    color: #f4f7fb;
+    background-color: #3b4256;
+    width: 191px;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px #848e99; }
+  .footer .footer-label {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #f4f7fb;
+    margin-bottom: 20px; }
+  .footer .footer-ul {
+    font-size: 16px;
+    line-height: 2;
+    padding: 0;
+    list-style: none;
+    color: #848e99; }
+  .footer .row {
+    margin-bottom: 48px; }
+  .footer hr {
+    margin-bottom: 48px;
+    height: 0px;
+    background-color: #848e99; }
+  .footer .license-social .license {
+    color: #dde1e6;
+    font-size: 16px; }
+    .footer .license-social .license .img-license {
+      margin-right: 16px; }
+  .footer .license-social .social {
+    margin-left: 0;
+    padding: 0; }
+    .footer .license-social .social .social-icon {
+      margin-left: 16px; }
+
+@media (max-width: 992px) {
+  .section-label {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .license {
+    margin-bottom: 20px; }
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 20px; }
+    .footer .col-lg-4 {
+      margin-bottom: 20px; }
+    .footer .row {
+      margin-bottom: 20px; } }
